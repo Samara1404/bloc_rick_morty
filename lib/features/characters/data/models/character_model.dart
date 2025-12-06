@@ -1,7 +1,7 @@
 import 'package:bloc_rick_morty/features/characters/domain/entities/character.dart';
 
 class CharacterModel extends Character {
-  const CharacterModel({
+   CharacterModel({
     required super.id,
     required super.name,
     required super.status,
@@ -27,4 +27,6 @@ class CharacterModel extends Character {
     episodeCount: (json['episode'] as List).length,
   );
 }
+
+  toJson() {}
 }
