@@ -5,13 +5,14 @@ class AppColors {
   static const primary = Color(0xFF1B76FF);
   static const secondary = Color(0xFF00C27C);
 
-  static const background = Color.fromARGB(255, 58, 188, 143);
+  static const background = Color.fromARGB(255, 16, 142, 115);
+  static const foregroundColor = Color(0xFFFFFFFF);
   static const scaffold = Color(0xFFFFFFFF);
 
-  static const appBarBg= Color.fromARGB(255, 159, 232, 206);
+  static const appColorsBg= Color.fromARGB(255, 3, 181, 160);
   static const appBarColor= Color.fromARGB(255, 133, 237, 204);
   
-  static const textPrimary = Color(0xFF1A1A1A);
+  static const textPrimary = Color(0xFFFFFFFF);
   static const textSecondary = Color(0xFF6B6B6B);
 
  
@@ -20,10 +21,10 @@ class AppColors {
   static const warning = Color(0xFFFFC107);
 
   
-  static const alive = Color.fromARGB(255, 38, 103, 244);
-  static const dead = Color.fromARGB(255, 9, 9, 42);
-  static const unknown = Color(0xFF9E9E9E);
+  static const alive = Color.fromARGB(255, 237, 235, 235);
+  static const dead = Color.fromARGB(255, 237, 235, 235);
+  static const unknown = Color.fromARGB(255, 237, 235, 235);
 
  
-  static const border = Color(0xFFE0E0E0);
+  static const border = Color.fromARGB(255, 14, 112, 88);
 }
